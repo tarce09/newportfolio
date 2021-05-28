@@ -9,62 +9,71 @@
     <link rel="stylesheet" type="text/css" href="svg.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 <div class="svgshapes">
 
 </div>
-    <nav class="fixed-top">
+    <nav class="fixed-top" data-aos="fade-down" data-aos-once="true" data-aos-duration="1000">
       <div class="logo"><i class="fas fa-drafting-compass"></i>ryan</div>
       <input type="checkbox" id="click">
       <label for="click" class="menu-btn">
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Experiences</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact me</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experiences</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact me</a></li>
       </ul>
     </nav>
+    <a id="home"></a>
     <div class="curve">
     <section class="head">
     <div class="wrapper">
 
-        <div class="grid1" data-value="2">
+        <div class="grid1" data-aos="fade-down" data-aos-once="true" data-aos-duration="1000">
         <span class="name">T Aryan <span>Raju</span></span> <br>
         <span class="prof">Web Developer/ Game Developer/ Programer</span> <br>
         <span class="details">I am a student at MIT ADT University pursuing Btech in Computer Science. My primary skills are Full Stack Web development, Game Development and Programming. I have freelanced and gained experience of over an year in Graphic Design and Web Development.</span> <br>
         <span>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/tarce09"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com/intruder_x?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/t-aryan-raju-9459311b3/"><i class="fab fa-linkedin-in"></i></a>
         </span>
         </div>
-        <div class="grid2" data-value="3"><img src="1621783828418.png"></div>
+        <div class="grid2" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000"><img src="1621783828418.png"></div>
     </div>
     <div class="font">
     </div>
     </section>
     </div>
+
+<a id="services"></a>
+
     <div class="tasks">
-        <div class="heading">Services<br><span>offered by me</span></div>
+        <div class="heading" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">Services<br><span>offered by me</span></div>
         <div class="taskwrap">
             <div class="box1" id="wd2"><div class="cont"><i class="fas fa-laptop-code"></i><br><span>I was intially  a backend developer using django and sqlite but later became a full stack developer capable of building industry level responsive webpages using the conventional front end tools .</span></div></div>
             <div class="box1" id="pg2"><div class="cont"><i class="fas fa-file-code"></i><br><span>I have started Programming competitively from 2020 and learned and did many projects using various python libraries like pandas, matplotlib, discord.py etc. I am also a Machine Learing enthusiast and am familiar with basic regression techniques</span></div></div>
             <div class="box1" id="gd2"><div class="cont"><i class="fas fa-gamepad"></i><br><span>I had started game development in 2019 in unity game engine . I and a classmate founded a game devevelopment startup named <b>2DEV STUDIOS</b> to develop games commercially.</span></div></div>
         </div>
-        <div class="taskwrap1">
+        <div class="taskwrap1" data-aos="fade-up" data-aos-once="true" data-aos-duration="300" data-aos-offset="100">
             <div class="box2" id="wd1"><div class="cont1"><i class="fas fa-laptop-code"></i><br><span>web development</span></div></div>
             <div class="box2" id="pg1"><div class="cont1"><i class="fas fa-file-code"></i><br><span>programming</span></div></div>
             <div class="box2" id="gd1"><div class="cont1"><i class="fas fa-gamepad"></i><br><span>game development</span></div></div>
         </div>
    <div class="interface">
-   <div class="experience">
-    <div class="head"> Experience</div>
+
+<a id="experience"></a>
+
+   <div class="experience" >
+    <div class="head" > Experience</div>
     <div class="cont">
-        <div class="head2">Co<br> Founder<br> of 2DEV</div>
+        <div class="head2" >Co<br> Founder<br> of 2DEV</div>
         <div class="contbox">2 DEV is a game development startup founded in 2020 with a vision to make enjoyable and
 publishable games. It is run by me and a fellow student and we have released games for widows
 commercially and are willing to continue the studio and its vision forward.</div>
@@ -82,14 +91,17 @@ maintaining.</div>
 <svg class="vcut" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
   <path fill="#252774" fill-opacity="1" d="M0,288L720,192L1440,288L1440,0L720,0L0,0Z"></path>
 </svg>
+
+<a id="projects"></a>
+
 <section class="projects">
-<div class="head3">Projects</div>
-<div class="menu"><span><button type="button" id="wdb" onclick="web()">Web Dev</button>
+<div class="head3" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">Projects</div>
+<div class="menu"  data-aos="fade-up" data-aos-once="true" data-aos-duration="1000"><span><button type="button" id="wdb" onclick="web()">Web Dev</button>
 <button type="button" id="pgb" onclick="pgb()">Programming</button>
 <button type="button" id="gdb" onclick="gameb()">Game Dev</button>
 </span></div>
 <div class="maincont">
-<div class="allpros webdev">
+<div class="allpros webdev" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000">
     <div class="card">
         <div class="imgBx" data-text="groupup">
             <i class="far fa-comments"></i><span>&nbspGroupup</span>
@@ -101,8 +113,8 @@ maintaining.</div>
       in which one can post his/her views . The key features of the project are making groups , posting in the groups , deleting the posts , viewing the post history
       of a group and also a single user etc.There is also a secure login and logout system for each user .
                 </p>
-                <a href=""><i class="far fa-eye"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
+                <a href="https://group--up.herokuapp.com/"><i class="far fa-eye"></i></a>
+                <a href="https://github.com/tarce09/groupup"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
@@ -117,7 +129,7 @@ maintaining.</div>
       smartphones to a person who just knows his budget and purpose to buy the smarrtphone . This website is mainy foccused to recommend smartphones
       in two clicks and one can directly buy the smartphone as our website provides buying links to that smartphone.
                 </p>
-                <a href=""><i class="fab fa-github"></i></a>
+                <a href="https://github.com/tarce09/mobile-recommender"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
@@ -132,8 +144,8 @@ maintaining.</div>
       to buy and there is also a demo payments option. There is also a complete seprate section for the staff members where no one can login without the
       admin's consent and the staff members can access the restaurant's dashboard where they can see the total orders and revenue generated today.
                 </p>
-                <a href=""><i class="far fa-eye"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
+                <a href="https://zaykedaar.herokuapp.com/"><i class="far fa-eye"></i></a>
+                <a href="https://github.com/tarce09/Zaykedaar"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
@@ -148,13 +160,13 @@ maintaining.</div>
       made with pure html,css and javascript which the addition of some plugins also coded in the mentioned languages.This is a responsive
       wwebite and all the templates are made by me with only some commands taken from the bootstrap documentation.
                 </p>
-                <a href=""><i class="fab fa-github"></i></a>
+                <a href="https://github.com/tarce09/newportfolio"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
 
 </div>
-<div class="allpros program nonedis">
+<div class="allpros program nonedis" data-aos="fade-in" data-aos-once="true" data-aos-duration="1000">
     <div class="card">
         <div class="imgBx" data-text="groupup">
             <i class="fas fa-robot"></i><span>&nbspDiscord Bot</span>
@@ -168,13 +180,12 @@ maintaining.</div>
       commands to checks the status and other info of the bot.It also holds the score of the person playing the 2 games
       and can be checked later.
                 </p>
-                <a href=""><i class="far fa-eye"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
+                <a href="https://github.com/tarce09/discord-bot-1"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
 </div>
-<div class="allpros gamedev nonedis">
+<div class="allpros gamedev nonedis" data-aos="fade-in">
     <div class="card">
         <div class="imgBx" data-text="groupup">
             <i class="fas fa-skull-crossbones"></i></i><span>&nbspDead horizon</span>
@@ -186,17 +197,19 @@ maintaining.</div>
       for both android and windows . I is the first commercial level game made by buy us under the brand name of 2Dev studios which 
       is founded by us. The 80% part of the game was made by us and only some assets were imported which includes some basic models and movement systems etc.
                 </p>
-                <a href=""><i class="far fa-eye"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
+                <a href="http://2devstudios.in/"><i class="far fa-eye"></i></a>
             </div>
         </div>
     </div>
 </div>
 </div>
 </section>
+
+<a id="contacts"></a>
+
 <div class="contacts">
-<div class="header">Contact <span>Me</span></div>
-      <div class="form">
+<div class="header"  data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">Contact <span>Me</span></div>
+      <div class="form"  data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
         <div class="contact-info">
           <h3 class="title">Lets Talk</h3>
           <p class="text">
@@ -260,18 +273,18 @@ maintaining.</div>
 <div class="name"><i class="fas fa-drafting-compass"></i>ryan</div>
 <div class="desc">I am always up for a new work in the field of web development, programming and game development and if u are willing to do the same feel free to contact me</div>
 <span>
-<a href="#"><i class="fab fa-github"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
-<a href="#"><i class="fab fa-linkedin-in"></i></a>
+<a href="https://github.com/tarce09"><i class="fab fa-github"></i></a>
+<a href="https://instagram.com/intruder_x?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/t-aryan-raju-9459311b3/"><i class="fab fa-linkedin-in"></i></a>
 </span>
 </div>
 <div class="fotbox">Designed and created by T Aryan Raju </div>
 </footer>
 </div>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript">
+    AOS.init();
     function web()
     {
         document.querySelector(".program").classList.add("nonedis");
