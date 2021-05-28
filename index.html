@@ -21,11 +21,11 @@
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Experiences</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact me</a></li>
       </ul>
     </nav>
     <div class="curve">
@@ -309,6 +309,11 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
+window.addEventListener("scroll",function(){
+    var headerr=document.querySelector('nav');
+    headerr.classList.toggle("sticky",window.scrollY>0);
+})
     </script>
 </body>
 </html>

@@ -58,7 +58,7 @@
     nav ul li a.active,
     nav ul li a:hover{
       background: none;
-      color: cyan;
+      color: #2f2fa2;
     }
 
 .curve .head .wrapper
