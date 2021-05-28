@@ -1,0 +1,68 @@
+.svgshapes
+{
+width: 100vw;
+}
+#sw-js-blob-svg
+{
+    position: absolute;
+    z-index: 5;
+    height: 500px;
+    width: 500px;
+    transform: translate(-150px,-150px);
+    left: 0;
+}
+#sw-js-blob-svg-1
+{
+    position: absolute;
+    z-index: 5;
+    height: 80px;
+    width: 80px;
+    transform: translate(250px,250px);
+    left: 0;
+}
+#sw-js-blob-svg-2
+{
+    position: absolute;
+    z-index: 5;
+    height: 60px;
+    width: 60px;
+    transform: translate(350px,150px);
+    left: 0;
+}
+#sw-js-blob-svg-3
+{
+    position: absolute;
+    z-index: 5;
+    height: 630px;
+    width: 630px;
+    transform: translate(-360px,400px);
+    left: 0;
+}
+#sw-js-blob-svg-4
+{
+    position: absolute;
+    z-index: 5;
+    height: 530px;
+    width: 530px;
+    right:5%;
+    transform: translate(5%,100px);
+}
+#sw-js-blob-svg-6
+{
+    position: absolute;
+    z-index: 5;
+    height: 370px;
+    width: 370px;
+    transform: translate(-60%,-100%);
+    left: 60%;
+    top:100%
+}
+#sw-js-blob-svg-5
+{
+    position: absolute;
+    z-index: 5;
+    height:100px;
+    width: 100px;
+    left: 60%;
+    transform: translate(-60%,150px);
+}
