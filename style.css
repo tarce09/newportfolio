@@ -40,7 +40,7 @@
 }
 .curve .head .wrapper .grid1 .name
 {
-    font-size: 70px;
+    font-size: 75px;
 
 }
 .curve .head .wrapper .grid1 .name span
@@ -49,13 +49,14 @@
 }
 .curve .head .wrapper .grid1 .prof
 {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
 
 }
 .curve .head .wrapper .grid1 .details
 {
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -67,18 +68,15 @@
     line-height: 80px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    color: #fff;
-    border: 2px #2f2fa2 solid;
-    padding: 7px 20px;
+    color: #2f2fa2;
     transition: 0.4s ease-in-out;
-    font-size: 18px;
+    font-size: 28px;
     border-radius: 12px;
-    background-color: #2f2fa2;
     font-weight: 500;
+    margin-right: 20px;
 }
 .curve .head .wrapper .grid1 a:hover{
-    padding: 7px 25px;
-    
+    color: #333;
 
 }
 .curve .head .wrapper .grid2 img
@@ -561,7 +559,7 @@ form {
 .title {
   color: #fff;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1;
   margin-bottom: 0.7rem;
 }
@@ -719,8 +717,6 @@ textarea.input {
   margin-top: 0.5rem;
 }
 .social-icons a {
-  width: 35px;
-  height: 35px;
   border-radius: 5px;
   background:#2f2fa2;
   color: #fff;
@@ -728,6 +724,8 @@ textarea.input {
   line-height: 35px;
   margin-right: 0.5rem;
   transition: 0.3s;
+  padding: 5px 20px;
+  text-decoration: none;
 }
 
 .social-icons a:hover {
@@ -749,13 +747,45 @@ textarea.input {
 
 
 
-.square {
-  position: absolute;
-  height: 400px;
-  top: 50%;
-  left: 50%;
-  transform: translate(181%, 11%);
-  opacity: 0.2;
+footer
+{
+  width: 100%;
+  font-size: 13px;
+  background-color: #252774;
+  padding: 30px 20px 5px 20px;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  transform: translateY(150px);
+
+}
+footer .allcont
+{
+  opacity: 1;
+  width: 60%;
+  text-align: center;
+}
+footer .name
+{
+  font-size: 35px;
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 10px;
+}
+footer .desc
+{
+  margin: 20px 0;
+  text-align: center;
 }
 
-
+footer .fotbox
+{
+  font-size: 17px;
+}
+footer a
+{
+  font-size: 27px;
+  text-decoration: none;
+  color: #fafafa;
+  margin: 0 20px 30px 20px;
+  transition: 0.4s;
+}
